@@ -7,6 +7,7 @@ from api.serializers import CommentSerializer, GroupSerializer, PostSerializer
 
 
 class PostViewSet(viewsets.ModelViewSet):
+    """Класс, представляющий API-интерфейс для модели `Post`"""
     queryset = Post.objects.all()
     serializer_class = PostSerializer
 
@@ -25,11 +26,13 @@ class PostViewSet(viewsets.ModelViewSet):
 
 
 class GroupViewSet(viewsets.ReadOnlyModelViewSet):
+    """Класс, представляющий API-интерфейс для модели `Group`."""
     queryset = Group.objects.all()
     serializer_class = GroupSerializer
-
+    
 
 class CommentViewSet(viewsets.ModelViewSet):
+    """Класс, представляющий API-интерфейс для модели `Comment`."""
     serializer_class = CommentSerializer
 
     def get_queryset(self):
