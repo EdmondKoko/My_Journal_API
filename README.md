@@ -1,5 +1,8 @@
 ![Python](https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge&logo=python&logoColor=yellow)
 ![Django](https://img.shields.io/badge/Django-2.2.6-red?style=for-the-badge&logo=django&logoColor=blue)
+![DjangoREST](https://img.shields.io/badge/DJANGO-REST-ff1709?style=for-the-badge&logo=django&logoColor=white&color=ff1709&labelColor=gray)
+![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
+![SQLite](https://img.shields.io/badge/SQLite-grey?style=for-the-badge&logo=postgresql&logoColor=yellow)
 
 # Yatube - социальная сеть для публикации личных дневников. 
 
@@ -73,6 +76,7 @@ python manage.py runserver
 ```
 
 После чего проект будет доступен по адресу (http://127.0.0.1:8000/)
+
 
 ### Примеры некоторых запросов API
 Получить список всех постов:
