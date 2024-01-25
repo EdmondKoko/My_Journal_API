@@ -24,13 +24,13 @@
 Клонируем проект:
 
 ```bash
-git clone https://github.com/edmondkoko/My_Journal_API.git
+git clone https://github.com/edmondkoko/My_Journal_API_v1.0.git
 ```
 
 Переходим в папку с проектом:
 
 ```bash
-cd My_Journal_API
+cd My_Journal_API_v1.0
 ```
 
 Устанавливаем виртуальное окружение:
